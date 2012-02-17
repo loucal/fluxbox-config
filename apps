@@ -1,0 +1,25 @@
+[app] (name=fbrun)
+  [Position]	(CENTER)	{0 0}
+  [Layer]	{2}
+[end]
+[app] (name=aterm)
+  [Dimensions]	{1024 190}
+  [Position]	(UPPERLEFT)	{0 0}
+  [Deco]	{0x1c0}
+  [Hidden]	{yes}
+  [Sticky]	{yes}
+  [Layer]	{12}
+[end]
+[app] (name=chromium-browser)
+  [Deco]	{0x1c0}
+[end]
+[app] (name=urxvt) (class=URxvt)
+  [Close]	{yes}
+  [Alpha]	{20 30}
+[end]
+[app] (name=kuake)
+  [Dimensions]	{514 602}
+  [Position]	(UPPERLEFT)	{512 0}
+  [Deco]	{0x1c0}
+  [Hidden]	{yes}
+[end]

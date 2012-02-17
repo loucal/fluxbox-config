@@ -1,0 +1,7 @@
+[begin] (fluxbox)
+  [exec] (Chromium) {chromium-browser}
+  [exec] (XTerm) {xterm}
+  [submenu] (fb) {fluxbox-menu}
+    [include] (/etc/X11/fluxbox/fluxbox-menu)
+  [end]
+[end]
