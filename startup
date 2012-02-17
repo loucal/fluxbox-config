@@ -7,10 +7,13 @@
 # Change your keymap:
 xmodmap "/home/lou/.Xmodmap"
 
+#set wallpaper to last used
 fbsetbg -l
 
+#transparent term over the wallpaper 
 aterm -tr +sb -fg black -bg white &
-urxvt -name kuake -tr +sb -sh 50 -fg white -bg black -pe 'kuake<0xff67>' &
+#quake style term with shading
+urxvt -name kuake -tr +sb -sh 60 -fg white -bg black -pe 'kuake<0xff67>' &
 
 # Applications you want to run with fluxbox.
 # MAKE SURE THAT APPS THAT KEEP RUNNING HAVE AN ''&'' AT THE END.
